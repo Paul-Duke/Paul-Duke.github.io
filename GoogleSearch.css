@@ -1,0 +1,60 @@
+.container, .containerImage, .containerAdvance {
+  font-size: 16px;
+  font-family: arial, sans-serif;
+  color: #222;
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  background-color: lightskyblue;
+}
+.container .top, .container .topImage, .container .topAdvance, .containerImage .top, .containerImage .topImage, .containerImage .topAdvance, .containerAdvance .top, .containerAdvance .topImage, .containerAdvance .topAdvance {
+  display: flex;
+  height: 50px;
+  margin: 20px;
+  flex-direction: row;
+  justify-content: right;
+  align-items: center;
+}
+.container .top a, .container .topImage a, .container .topAdvance a, .containerImage .top a, .containerImage .topImage a, .containerImage .topAdvance a, .containerAdvance .top a, .containerAdvance .topImage a, .containerAdvance .topAdvance a {
+  padding: 10px;
+  cursor: pointer;
+  text-decoration: underline;
+  color: blue;
+}
+.container .center, .container .centerImage, .container .centerAdvance, .containerImage .center, .containerImage .centerImage, .containerImage .centerAdvance, .containerAdvance .center, .containerAdvance .centerImage, .containerAdvance .centerAdvance {
+  flex-grow: 3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.container .center .image, .container .center .image2, .container .center .image3, .container .centerImage .image, .container .centerImage .image2, .container .centerImage .image3, .container .centerAdvance .image, .container .centerAdvance .image2, .container .centerAdvance .image3, .containerImage .center .image, .containerImage .center .image2, .containerImage .center .image3, .containerImage .centerImage .image, .containerImage .centerImage .image2, .containerImage .centerImage .image3, .containerImage .centerAdvance .image, .containerImage .centerAdvance .image2, .containerImage .centerAdvance .image3, .containerAdvance .center .image, .containerAdvance .center .image2, .containerAdvance .center .image3, .containerAdvance .centerImage .image, .containerAdvance .centerImage .image2, .containerAdvance .centerImage .image3, .containerAdvance .centerAdvance .image, .containerAdvance .centerAdvance .image2, .containerAdvance .centerAdvance .image3 {
+  padding-bottom: 20px;
+  margin-top: -100px;
+}
+.container .center .text, .container .centerImage .text, .container .centerAdvance .text, .containerImage .center .text, .containerImage .centerImage .text, .containerImage .centerAdvance .text, .containerAdvance .center .text, .containerAdvance .centerImage .text, .containerAdvance .centerAdvance .text {
+  margin: 20px 0;
+  padding: 5px;
+  height: 22px;
+  width: 500px;
+  border-radius: 16px;
+  font-size: 16px;
+}
+.container .center .button, .container .center .button2, .container .center .button3, .container .centerImage .button, .container .centerImage .button2, .container .centerImage .button3, .container .centerAdvance .button, .container .centerAdvance .button2, .container .centerAdvance .button3, .containerImage .center .button, .containerImage .center .button2, .containerImage .center .button3, .containerImage .centerImage .button, .containerImage .centerImage .button2, .containerImage .centerImage .button3, .containerImage .centerAdvance .button, .containerImage .centerAdvance .button2, .containerImage .centerAdvance .button3, .containerAdvance .center .button, .containerAdvance .center .button2, .containerAdvance .center .button3, .containerAdvance .centerImage .button, .containerAdvance .centerImage .button2, .containerAdvance .centerImage .button3, .containerAdvance .centerAdvance .button, .containerAdvance .centerAdvance .button2, .containerAdvance .centerAdvance .button3 {
+  margin: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  cursor: pointer;
+}
+.container .center .button input, .container .center .button2 input, .container .center .button3 input, .container .centerImage .button input, .container .centerImage .button2 input, .container .centerImage .button3 input, .container .centerAdvance .button input, .container .centerAdvance .button2 input, .container .centerAdvance .button3 input, .containerImage .center .button input, .containerImage .center .button2 input, .containerImage .center .button3 input, .containerImage .centerImage .button input, .containerImage .centerImage .button2 input, .containerImage .centerImage .button3 input, .containerImage .centerAdvance .button input, .containerImage .centerAdvance .button2 input, .containerImage .centerAdvance .button3 input, .containerAdvance .center .button input, .containerAdvance .center .button2 input, .containerAdvance .center .button3 input, .containerAdvance .centerImage .button input, .containerAdvance .centerImage .button2 input, .containerAdvance .centerImage .button3 input, .containerAdvance .centerAdvance .button input, .containerAdvance .centerAdvance .button2 input, .containerAdvance .centerAdvance .button3 input {
+  margin: 20px;
+  border-radius: 5px;
+  font-style: italic;
+  font-size: 16px;
+  cursor: pointer;
+}
