@@ -9,7 +9,7 @@
   width: 100%;
   height: 100%;
   flex-direction: column;
-  background-color: lightskyblue;
+  background-color:  lightgoldenrodyellow;
 }
 .container .top, .container .topImage, .container .topAdvance, .containerImage .top, .containerImage .topImage, .containerImage .topAdvance, .containerAdvance .top, .containerAdvance .topImage, .containerAdvance .topAdvance {
   display: flex;
